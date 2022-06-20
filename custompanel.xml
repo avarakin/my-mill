@@ -4,11 +4,5 @@ Include your PyVCP panel here.
 
 -->
 
- <button>
-     <halpin>"rapid-to-home"</halpin>
-     <text>"Rapid to Home"</text> 
-     <font>('Fixed',16)</font>
- </button>  
- 
 <pyvcp>
 </pyvcp>
