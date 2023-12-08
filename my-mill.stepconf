@@ -214,7 +214,7 @@
   <property name="zmaxlim" type="float" value="37.0"/>
   <property name="zmaxvel" type="float" value="20.0"/>
   <property name="zmicrostep" type="float" value="32.0"/>
-  <property name="zminlim" type="float" value="-55.0"/>
+  <property name="zminlim" type="float" value="-65.0"/>
   <property name="zpulleyden" type="float" value="1.0"/>
   <property name="zpulleynum" type="float" value="1.0"/>
   <property name="zscale" type="float" value="1280.0"/>
