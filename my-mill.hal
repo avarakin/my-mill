@@ -1,4 +1,4 @@
-#P17 NC
+#P17 Relay
 #P13 ESTOP in
 #P1 NC
 #P14 ESTOP Out inverted
@@ -36,15 +36,10 @@ net estop-ext => iocontrol.0.emc-enable-in
 
 #Output
 setp parport.0.pin-14-out-invert 1
-
-
-
-net estop-out <= halui.machine.is-on
-net estop-out       => parport.0.pin-14-out
-net estop-out       => parport.0.pin-01-out
-
-
+net xenable      => parport.0.pin-14-out
 net xenable         => parport.0.pin-17-out
+
+#net estop-out <= halui.machine.is-on
 ################################
 
 net xstep           => parport.0.pin-02-out
