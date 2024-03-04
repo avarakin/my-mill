@@ -12,7 +12,7 @@ addf mux2.0 servo-thread
 
 
 setp mux2.0.in0  100
-setp mux2.0.in1  1200
+setp mux2.0.in1  6000
 net  speed_control  mux2.0.sel <= input.0.btn-tl
 
 # Map right joystick Up/Down to Z axis. Need to change sign of input so Z axis moves in correct direction
