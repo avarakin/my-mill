@@ -1,7 +1,7 @@
 # Include your custom HAL commands here
 # This file will not be overwritten when you run stepconf again
 
-loadusr -W hal_input -KRAL X-Box
+loadusr -W hal_input -KRAL "Logitech Gamepad F310"
 loadrt mult2 count=2
 loadrt mux2
 
