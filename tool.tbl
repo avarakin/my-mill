@@ -1,3 +1,4 @@
-;Tool  Pocket X Offset     Y Offset     Z Offset     Diameter     Remark
-T4     P1     X+0.000000   Y+0.000000   Z+0.000000   D+4.000000   ; comment
-T2     P0     X+0.000000   Y+0.000000   Z+0.000000   D+5.000000   ; comment
+;Tool  Pocket Z Offset     Diameter     Remark
+T4     P1     Z+0.000000   D+4.000000   ; comment
+T5     P0     Z+0.000000   D+5.000000   ; comment
+T1     P0     Z+0.000000   D+3.150000   ; New Tool

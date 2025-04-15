@@ -76,4 +76,8 @@ icon_theme = classic
 audio_enabled = True
 audio_alert = /usr/share/sounds/freedesktop/stereo/dialog-warning.oga
 audio_error = /usr/share/sounds/freedesktop/stereo/dialog-error.oga
+kbd_width = 880
+kbd_set_height = False
+kbd_set_width = False
+gcode_theme = classic
 
